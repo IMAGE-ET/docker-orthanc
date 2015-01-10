@@ -1,6 +1,9 @@
 # Fedora 21
 FROM fedora:21
 
+# Install deltarpm
+RUN yum -y install deltarpm
+
 # Update fedora
 RUN yum -y update
 
